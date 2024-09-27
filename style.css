@@ -1,0 +1,88 @@
+.calculator {
+    border-radius: 15px;
+    height: 415x;
+    width: 390px;
+    background-color: rgb(32,91,122);
+    border-width: thick;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+    margin-top: 30px;
+}
+.top {
+    display: flex;
+}
+.screen {
+    background-color: black;
+    flex: 1;
+    width: 340px;
+    height: 90px;
+   border-radius: 20px;
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-top: 15px;
+}
+.footer {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-right: 10px;
+}
+.footer button {
+  background-color: white;
+    flex: 1;
+    flex-basis: 70px;
+    height: 80px;
+    border-radius: 150px;
+    font-size: 30px;
+}
+button:hover {
+    background-color: black; 
+    color: white; 
+    border-color: rgb(151, 4, 107);
+  }
+  #equal:hover {
+    background-color:#0049B7 ; 
+    color: white; 
+    border-color: #a0d2eb;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .main {
+    text-align: center;
+  }
+  .result-old {
+    height: 40%;
+    text-align: right;
+    font-size: 20px;
+  }
+  .result-new {
+    margin-top: 25px;
+    text-align: right;
+    font-size: 20px;
+    height: 60%;
+  }
+  .screen div {
+    margin-right: 20px;
+    overflow: hidden;
+    color: white;
+  }
+  .clear {
+    margin-bottom: 15px;
+  }
+  .execute:disabled {
+    opacity: 1;
+    background-color: white;
+    color: black;
+    flex-basis: 70px;
+    height: 80px;
+    border-radius: 150px;
+    font-size: 30px;
+    border-color: black;
+}
